@@ -3,12 +3,97 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TrafficRules/public/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/boardwalk/content-single.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/boardwalk/content.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/boardwalk/header.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/boardwalk/js/boardwalk.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/boardwalk/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/cubic/footer.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/cubic/js/cubic.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../trezerotre/wp-content/themes/cubic/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/readme.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-config.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/archive.php">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/assets/css/bootstrap.min.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/assets/js/vendor/bootstrap.min.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/category-contacts.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/category-news.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/category-projects.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/category-seminar.php">
           <value>
             <set />
           </value>
@@ -38,6 +123,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/inc/class-wp-bootstrap-navwalker.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/inc/extras.php">
           <value>
             <set />
@@ -53,12 +143,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/searchform.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/sidebar-home.php">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/sidebar.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/single-news.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/single-project.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/single-seminar.php">
           <value>
             <set />
           </value>
@@ -88,7 +198,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-news.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-newslist.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-project.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-projectlist.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-seminar.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content-single-seminarlist.php">
           <value>
             <set />
           </value>
@@ -104,6 +239,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/wp-content/themes/sparkling/template-parts/content.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-includes/link-template.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/wp-includes/nav-menu.php">
           <value>
             <set />
           </value>

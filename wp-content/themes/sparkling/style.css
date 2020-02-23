@@ -40,13 +40,21 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 
 /* =Global
 ----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   color: #6B6B6B;
   background-color: #F2F2F2;
   word-wrap: break-word;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Roboto;
   line-height: 1.7;
   font-size: 14px;
+  margin-bottom: 60px;
 }
 
 a {
@@ -105,6 +113,9 @@ a {
   border: 1px solid #dadada;
 }
 
+.form-search {
+  max-width:350px;
+}
 a:hover,
 a:focus {
   color: #365d7e;
@@ -127,22 +138,21 @@ pre {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #fff;
   font-family: 'open sans', arial, sans-serif;
   font-weight: 300;
-  font-size:28px;
-  color:#000;
+  font-size:22px;
+  color:#444;
 }
 
 h1,
 .h1 {
-  font-size: 28px;
-  margin:5px;
+  font-size: 24px;
+  margin:5px 0;
 }
 
 h2,
 .h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3,
@@ -251,6 +261,10 @@ textarea {
 }
 
 /* Layout */
+.site-main {
+  margin-top:40px;
+}
+
 .side-pull-left .main-content-inner{
     float: left;
 }
@@ -350,7 +364,7 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+
 }
 .page-links {
   clear: both;
@@ -367,26 +381,118 @@ textarea {
   color: #48b8dc;
 }
 .entry-meta {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 footer.entry-meta {
   margin-bottom: 0;
 }
 
+.category-news {
+
+}
+
+.category-news .entry-content{
+  color: #777777;
+  font-family: Roboto,sans-serif;
+  font-size: 13px;
+}
 
 
+/*
+
+  Projects
+
+*/
+.category-projects .nav-previous, .nav-next {
+  display: none;
+}
+.project-info-content {
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  min-height: 250px;
+}
+.project-logo-container {
+  height: 88px;
+}
+.project-logo {
+  max-width: 160px;
+  max-height: 80px;
+}
+.project-name {
+  font-weight:bold;
+  margin-bottom:15px;
+}
+.project-label {
+  font-style: italic;
+  font-size: 13px;
+  color:#888;
+}
+
+.project-info {
+  border-top: 1px solid #e6e6e6;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.project-info .project-label {
+  margin-bottom:15px;
+  display:inline-block;
+}
+
+.project-info .image-container {
+  text-align:center;
+}
 /*
 
   Team
 */
 
+.news-feed {
+  height:114px;
+  overflow: hidden;
+}
+
+.news-feed p:first-of-type {
+  display: none;
+}
+.news-read-more {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+
+.category-news .envira-gallery-wrap {
+  display:none;
+}
+.category-news .project-info .envira-gallery-wrap{
+  display:block;
+}
+
+.category-news .nav-previous, .nav-next {
+  display: none;
+}
 .category-team .nav-previous, .nav-next {
   display: none;
 }
+.category-seminar .nav-previous, .nav-next {
+  display: none;
+}
 
+.category-team .thumbnail {
+  max-width:150px;
+}
+
+.panel-default {
+  margin-bottom:0;
+}
 .panel-default>.panel-heading {
   color: #fff;
-  background-color: #7e9db7;
+  background-color: #92b5d2;
+}
+.panel-default>.panel-heading a{
+  color: #fff;
+  font-size:14px;
 }
 
 .panel-default .interests{
@@ -397,7 +503,7 @@ footer.entry-meta {
 
 .bcard-icon {
   color:#478ac1;
-  margin-right: 12px !important;
+  margin-right: 5px !important;
 }
 
 .page-header:not(.entry-header) {
@@ -413,6 +519,10 @@ footer.entry-meta {
   font-style: italic;
 }
 
+.page-header {
+  margin:0 0 15px 0;
+}
+
 .entry-meta .fa {
   font-size: 14px;
   margin-right: 3px;
@@ -422,8 +532,12 @@ footer.entry-meta {
 }
 .entry-title {
   color: #444;
-  font-size: 15px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  border-bottom: 1px solid #eae9e9;
+  padding-bottom: 15px;
+
 }
 .entry-title a {
   color: #6091ba;
@@ -485,9 +599,7 @@ body.blog .post-inner-content,
 .post-inner-content:first-child {
   border-top: 1px solid #dadada;;
 }
-.entry-title {
-  margin-top: 0;
-}
+
 .says {
   display: none;
 }
@@ -612,8 +724,25 @@ object {
   max-width: 100%;
 }
 
+
+#google-map {
+  width: 100%;
+  height: 300px;
+}
 /* =Widgets
 ----------------------------------------------- */
+
+#secondary .well {
+  padding:0;
+}
+
+.widget .widget-title {
+  margin-top:0;
+  color: #fff;
+  padding:10px 15px;
+  background-color: #92b5d2;
+  font-size:14px;
+}
 
 /* Make sure select elements fit in widgets */
 .widget select {
@@ -626,9 +755,10 @@ object {
 .widget ul li {
   list-style: none;
   border-bottom: 1px solid #F2F2F2;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  padding: 15px;
+  margin: 0 !important;
 }
+
 .widget_nav_menu ul li {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -648,12 +778,17 @@ object {
   padding: 0;
   line-height: 18px;
   font-size: 14px;
+  margin-bottom:0;
 }
 .widget ul.nav.nav-tabs {
   padding: 0;
 }
+
+#secondary {
+  margin-top: 40px;
+}
+
 #secondary .widget {
-  margin-bottom: 50px;
   color: #C1C0C0;
   overflow: hidden;
 }
@@ -663,11 +798,19 @@ object {
 .tab-content ul li {
   list-style: none;
 }
+
+.widget.widget_archive a {
+  font-style:italic;
+  color:#6B6B6B;
+}
+
 #secondary .widget_archive ul li:before,
 #secondary .widget_categories ul li:before,
 #secondary .widget_recent_comments ul li:before {
   font-family: fontawesome;
-  margin-right: 10px;
+  margin-right: 15px;
+  margin-left:10px;
+  color:#478ac1;
 }
 #secondary .widget_archive ul li:before {
   content: '\f073';
@@ -687,11 +830,18 @@ object {
 }
 #secondary .widget > h3 {
   font-size: 14px;
-  text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   margin-top: 0;
-  color: #636467;
+  color: #fff;
 }
+
+#secondary .widget:not(.widget_archive) li a:before{
+  content:'\f0da';
+  font-family: fontawesome;
+  margin-right:10px;
+  color: #478ac1;
+}
+
 #secondary .widget a {
   color: #000;
 }
@@ -814,8 +964,7 @@ a.more-link {
 .woocommerce #respond input#submit.alt:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,
 .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,
 a.more-link:hover {
-  background-color: #363636;
-  border-color: #363636;
+  border-color: rgba(0,0,0,0.1);
   color: #FFF;
 }
 .btn.btn-default, .woocommerce #respond input#submit, .woocommerce a.button,
@@ -842,7 +991,15 @@ button, .button {
           transition: background-color 0.3s linear;
 }
 button:hover, .button:hover {
-  background-color: #363636;
+  background-color: rgba(0,0,0,0.05);
+}
+
+#searchsubmit {
+  background-color: rgba(0,0,0,0.05);
+  border: 1px solid #93b4ce;
+}
+#searchsubmit:hover {
+  background-color: rgba(0,0,0,0.1);
 }
 #subscription-toggle {
     float: right;
@@ -915,6 +1072,10 @@ button:hover, .button:hover {
   }
 }
 
+.no-results {
+  margin-top:40px;
+}
+
 /* =Navigation
 ----------------------------------------------- */
 
@@ -971,14 +1132,13 @@ button:hover, .button:hover {
   text-transform: uppercase;
 }
 .navbar.navbar-default {
-  background-color: #5d778e;
+  background-color: #6091ba;
   font-family: 'Open Sans', serif;
-  margin-bottom: 0;
   font-weight: 500;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.07);
 }
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
-  line-height: 40px;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -997,9 +1157,7 @@ button:hover, .button:hover {
 .navbar {
   border-radius: 0;
 }
-.navbar-default {
-  border: none;
-}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > .caret,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -1145,12 +1303,23 @@ button:hover, .button:hover {
     border-radius: 0;
     padding: 0;
 }
+.header-logo {
+  height: 40px;
+}
 .navbar-nav > li > .dropdown-menu {
   padding: 0;
 }
 .navbar-nav > li {
-  padding: 7px 15px;
   color: #F5F7FA;
+}
+.navbar-nav > li.active {
+  background: rgba(0,0,0,0.05);
+  border-bottom: 3px solid #fff;
+  color: #fff;
+}
+
+.navbar-nav > li:hover {
+  border-bottom: 3px solid #fff;
 }
 .navbar-nav > li > a {
   padding: 0;
@@ -1170,9 +1339,7 @@ button:hover, .button:hover {
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
-.nav.navbar-nav {
-  float: right;
-}
+
 @media (max-width: 767px) {
   .nav.navbar-nav {
     float: none;
@@ -1460,7 +1627,10 @@ p.logged-in-as {
 
 #footer-area {
   background-color: #313233;
-  color: #999;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
 #footer-area a {
   color: #DADADA;
